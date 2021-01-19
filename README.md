@@ -1,7 +1,11 @@
 # Analysis of Pokemon games across Generations
 ## Data sources
 1. Strength and population statistics about Pokemon from generations 1-8: [Complete Pokemon Dataset from Kaggle](https://www.kaggle.com/mariotormo/complete-pokemon-dataset-updated-090420)
+ - Name of Pokemon, type, ability, species, generation of first occurrence
+ - Fighting Stats: attack, defense, HP, height, weight, SpecialAttack, SpecialDefense etc.
+ - Population Stats: growth rate, catch rate, percentage male (if applicable), egg cycles etc.
 2. Pokemon type advatange statistics: [Pokemon Type Chart](https://www.theloadout.com/pokemon-type-chart)
+ - Strength and weakness of each type  
 
 
 ## Analysis
