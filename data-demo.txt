@@ -1,0 +1,179 @@
+- Importing the schema:
+\i schema.ddl
+psql:schema.ddl:1: NOTICE:  drop cascades to 10 other objects
+DETAIL:  drop cascades to type stats
+drop cascades to table typeinfo
+drop cascades to table basicinfo
+drop cascades to table genderedpokemon
+drop cascades to table secondarytypeinfo
+drop cascades to table secondaryabilityinfo
+drop cascades to table hiddenabilityinfo
+drop cascades to table legendarypokemon
+drop cascades to table sublegendarypokemon
+drop cascades to table mythicalpokemon
+DROP SCHEMA
+CREATE SCHEMA
+SET
+CREATE DOMAIN
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+
+- Importing the Data:
+\i import_data.sql
+SET
+COPY 18
+COPY 1026
+COPY 791
+COPY 540
+COPY 512
+COPY 38
+COPY 45
+COPY 29
+COPY 809
+
+
+- Size of each table:
+SELECT count(*) FROM BasicInfo;
+ count
+-------
+  1026
+(1 row)
+
+SELECT count(*) FROM TypeInfo;
+ count
+-------
+    18
+(1 row)
+
+SELECT count(*) FROM GenderedPokemon;
+ count
+-------
+   791
+(1 row)
+
+SELECT count(*) FROM SecondaryTypeInfo;
+ count
+-------
+   540
+(1 row)
+
+SELECT count(*) FROM SecondaryAbilityInfo;
+ count
+-------
+   512
+(1 row)
+
+SELECT count(*) FROM HiddenAbilityInfo;
+ count
+-------
+   809
+(1 row)
+
+SELECT count(*) FROM LegendaryPokemon;
+ count
+-------
+    38
+(1 row)
+
+SELECT count(*) FROM SubLegendaryPokemon;
+ count
+-------
+    45
+(1 row)
+
+SELECT count(*) FROM MythicalPokemon;
+ count
+-------
+    29
+(1 row)
+
+
+- Getting a subset of few rows in each table (Please note that the BasicInfo table is too long to output everything in, so we only output a few columns):
+
+SELECT pID, Name, GenerationNumber FROM BasicInfo WHERE pID = 1 OR pID = 2 OR pID = 3;
+ pid |     name      | generationnumber
+-----+---------------+------------------
+   1 | Bulbasaur     |                1
+   2 | Ivysaur       |                1
+   3 | Venusaur      |                1
+   3 | Mega Venusaur |                1
+(4 rows)
+
+
+SELECT * FROM TypeInfo WHERE Name='Rock';
+ name |     weakestagainst      |       resistanttowards       |    strongestagainst
+------+-------------------------+------------------------------+------------------------
+ Rock | Fighting, Ground, Steel | Normal, Flying, Poison, Fire | Flying, Bug, Fire, Ice
+(1 row)
+
+
+SELECT * FROM GenderedPokemon WHERE pID = 1 OR pID = 2 OR pID = 3;
+ pid |     name      | percentmale
+-----+---------------+-------------
+   1 | Bulbasaur     |        87.5
+   2 | Ivysaur       |        87.5
+   3 | Venusaur      |        87.5
+   3 | Mega Venusaur |        87.5
+(4 rows)
+
+
+SELECT * FROM SecondaryTypeInfo WHERE pID = 1 OR pID = 12 OR pID = 13;
+ pid |    name    | secondarytype
+-----+------------+---------------
+   1 | Bulbasaur  | Poison
+  12 | Butterfree | Flying
+  13 | Weedle     | Poison
+(3 rows)
+
+
+SELECT * FROM SecondaryAbilityInfo WHERE pID = 16 OR pID = 23 OR pID = 29;
+ pid |   name   | secondaryability
+-----+----------+------------------
+  16 | Pidgey   | Tangled Feet
+  23 | Ekans    | Shed Skin
+  29 | Nidoran♀ | Rivalry
+(3 rows)
+
+
+SELECT * FROM HiddenAbilityInfo WHERE pID = 1 OR pID = 4 OR pID = 7;
+ pid |    name    | hiddenability
+-----+------------+---------------
+   1 | Bulbasaur  | Chlorophyll
+   4 | Charmander | Solar Power
+   7 | Squirtle   | Rain Dish
+(3 rows)
+
+
+SELECT * FROM LegendaryPokemon WHERE pID = 249 OR pID = 250 OR pID = 791;
+ pid |   name   | numeggtype
+-----+----------+------------
+ 249 | Lugia    |          1
+ 250 | Ho-oh    |          1
+ 791 | Solgaleo |          1
+(3 rows)
+
+
+SELECT * FROM SubLegendaryPokemon WHERE pID = 144 OR pID = 145 OR pID = 146;
+ pid |   name   | numeggtype
+-----+----------+------------
+ 144 | Articuno |          1
+ 145 | Zapdos   |          1
+ 146 | Moltres  |          1
+(3 rows)
+
+
+SELECT * FROM MythicalPokemon WHERE pID = 151 OR pID = 251 OR pID = 385;
+ pid |  name   | numeggtype
+-----+---------+------------
+ 151 | Mew     |          1
+ 251 | Celebi  |          1
+ 385 | Jirachi |          1
+(3 rows)
+

@@ -1,0 +1,141 @@
+- FOR QUESTION 1:
+
+-- (QUERY 1):
+insert into distributionbyTypeInfo
+select * from distributionBytype;
+INSERT 0 18
+
+-- (QUERY 2):
+SELECT * FROM DistributionbyTypeInfo;
+ primarytype | numlegendary | numsublegendary
+-------------+--------------+-----------------
+ Fighting    |            2 |               0
+ Normal      |            0 |               3
+ Ice         |            0 |               2
+ Fairy       |            3 |               0
+ Ghost       |            2 |               0
+ Electric    |            0 |               6
+ Poison      |            1 |               2
+ Fire        |            1 |               4
+ Flying      |            0 |               2
+ Dragon      |           10 |               4
+ Bug         |            0 |               2
+ Water       |            3 |               2
+ Psychic     |           12 |               5
+ Ground      |            2 |               2
+ Rock        |            0 |               4
+ Steel       |            1 |               3
+ Grass       |            0 |               3
+ Dark        |            1 |               1
+(18 rows)
+
+
+-- (QUERY 3):
+insert into AbilityInfo 
+VALUES ('Legendary'::text, (select numzeroleg::int from zeroabilityLegendary), (select numoneleg::int from oneAbilityLegendary), (select numTwoleg::int from twoAbilityLegendary));
+INSERT 0 1
+
+-- (QUERY 4):
+insert into AbilityInfo 
+VALUES ('SubLegendary'::text, (select numzerosubleg::int from zeroabilitySubLegendary), (select numonesubleg::int from oneAbilitySubLegendary), (select numTwosubleg::int from twoAbilitySubLegendary));
+INSERT 0 1
+
+-- (QUERY 5):
+SELECT * FROM AbilityInfo;
+   category   | numzeroability | numoneability | numtwoability
+--------------+----------------+---------------+---------------
+ Legendary    |              0 |            36 |             2
+ SubLegendary |              0 |            45 |             0
+(2 rows)
+
+-- (QUERY 6):
+insert into AvgStatsComparisonInfo
+select * from averageStats;
+INSERT 0 8
+
+-- (QUERY 7):
+SELECT * FROM AvgStatsComparisonInfo;
+<<<We saved the result into a file, called avgstatscomparisoninfo.txt, to make it easier to read for you since it's very long>>>
+
+
+
+
+- FOR QUESTION 2:
+
+
+-- (QUERY 1):
+INSERT INTO q2
+(SELECT * FROM
+TotalAverageHP NATURAL JOIN TotalAverageAttack
+               NATURAL JOIN TotalAverageDefence 
+               NATURAL JOIN TotalAverageSpecialAttack 
+               NATURAL JOIN TotalAverageSpecialDefence 
+               NATURAL JOIN TotalAverageSpeed
+               NATURAL JOIN TotalAverageCatchRate);
+INSERT 0 2
+
+-- (QUERY 2):
+SELECT * FROM q2;
+category    |hp     |attack |defense|specialattack | specialdefence |  speed  | catchrate
+----------------------+---------+---------+---------+---------------+----------------+---------+-----------
+mythical    |87.1905|105.94 |95.9048|      109.393 |        94.2857 | 96.3333 |   11.0526
+non-mythical|68.3337|76.7108|71.9992|      69.4232 |         69.749 |  65.279 |    99.732
+(2 rows)
+
+-- (QUERY 3):
+SELECT * FROM OneAbilityMythical, TwoAbilityMythical;
+ oneability | twoability
+------------+------------
+         29 |          0
+(1 row)
+
+-- (QUERY 4):
+SELECT * FROM OneAbilityNonMythical, TwoAbilityNonMythical;
+ oneability | twoability
+------------+------------
+        483 |        512
+(1 row)
+
+
+-- (QUERY 5):
+SELECT min(GenerationNumber)
+FROM PokemonMythicalTypes;
+ min
+-----
+   1
+(1 row)
+
+
+
+
+
+
+- FOR QUESTION 3:
+
+-- (QUERY 1)
+INSERT INTO NumGenInfo
+select * from NumGenerationTypes;
+INSERT 0 8
+
+-- (QUERY 2)
+SELECT * FROM NumGenInfo;
+ generationnumber | numprimarytypes
+------------------+-----------------
+                1 |              17
+                2 |              16
+                3 |              16
+                4 |              17
+                5 |              17
+                6 |              17
+                7 |              16
+                8 |              18
+(8 rows)
+
+-- (QUERY 3)
+INSERT INTO RangeAvgInfo
+select * from rangeAvgByType;
+INSERT 0 18
+
+-- (QUERY 4)
+SELECT * FROM RangeAvgInfo;
+<<<We saved the result into a file, called rangeavginfo.txt, to make it easier to read for you since it's very long>>>
