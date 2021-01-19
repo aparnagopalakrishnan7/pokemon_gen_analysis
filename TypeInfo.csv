@@ -1,0 +1,19 @@
+name,WeakestAgainst,ResistantTowards,StrongestAgainst
+Normal,"Rock, Steel, Ghost",Ghost,
+Fighting,"Flying, Poison, Bug, Psychic, Fairy, Ghost","Rock, Bug, Dark","Normal, Rock, Steel, Ice, Dark"
+Flying,"Rock, Steel, Electric","Fighting, Bug, Grass, Ground","Fighting, Bug, Grass"
+Poison,"Poison, Ground, Rock, Ghost, Steel","Fighting, Poison, Grass, Fairy","Grass, Fairy"
+Ground,"Bug, Grass, Flying","Poison, Rock, Electric","Poison, Rock, Steel, Fire, Electric"
+Rock,"Fighting, Ground, Steel","Normal, Flying, Poison, Fire","Flying, Bug, Fire, Ice"
+Bug,"Fighting, Flying, Poison, Ghost, Steel, Fire, Fairy","Fighting, Ground, Grass","Grass, Psychic, Dark"
+Ghost,"Normal, Dark","Poison, Bug, Normal, Fighting","Ghost, Psychic"
+Steel,"Steel, Fire, Water, Electric","Normal, Flying, Rock, Bug, Steel, Grass, Psychic, Ice, Dragon, Fairy, Poison","Rock, Ice, Fairy"
+Fire,"Rock, Fire, Water, Dragon","Bug, Steel, Fire, Grass, Ice","Bug, Steel, Grass, Ice"
+Water,"Water, Grass, Dragon","Steel, Fire, Water, Ice","Ground, Rock, Fire"
+Grass,"Flying, Poison, Bug, Steel, Fire, Grass, Dragon","Ground, Water, Grass, Electric","Ground, Rock, Water"
+Electric,"Grass, Electric, Dragon, Ground","Flying, Steel, Electric","Flying, Water"
+Psychic,"Steel, Psychic, Dark","Fighting, Psychic","Fighting, Poison"
+Ice,"Steel, Fire, Water, Ice",Ice,"Flying, Ground, Grass, Dragon"
+Dragon,"Steel, Fairy","Fire, Water, Grass, Electric",Dragon
+Dark,"Fighting, Dark, Fairy","Ghost, Dark, Psychic","Ghost, Psychic"
+Fairy,"Poison, Steel, Fire","Fighting, Bug, Dark, Dragon","Fighting, Dragon, Dark"

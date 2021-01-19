@@ -1,0 +1,513 @@
+pID,Name,SecondaryAbility
+16,Pidgey,Tangled Feet
+17,Pidgeotto,Tangled Feet
+18,Pidgeot,Tangled Feet
+19,Rattata,Guts
+19,Alolan Rattata,Hustle
+20,Raticate,Guts
+20,Alolan Raticate,Hustle
+23,Ekans,Shed Skin
+24,Arbok,Shed Skin
+29,Nidoran♀,Rivalry
+30,Nidorina,Rivalry
+31,Nidoqueen,Rivalry
+32,Nidoran♂,Rivalry
+33,Nidorino,Rivalry
+34,Nidoking,Rivalry
+35,Clefairy,Magic Guard
+36,Clefable,Magic Guard
+39,Jigglypuff,Competitive
+40,Wigglytuff,Competitive
+46,Paras,Dry Skin
+47,Parasect,Dry Skin
+48,Venonat,Tinted Lens
+49,Venomoth,Tinted Lens
+50,Diglett,Arena Trap
+50,Alolan Diglett,Tangling Hair
+51,Dugtrio,Arena Trap
+51,Alolan Dugtrio,Tangling Hair
+52,Meowth,Technician
+52,Alolan Meowth,Technician
+52,Galarian Meowth,Tough Claws
+53,Persian,Technician
+53,Alolan Persian,Technician
+54,Psyduck,Cloud Nine
+55,Golduck,Cloud Nine
+56,Mankey,Anger Point
+57,Primeape,Anger Point
+58,Growlithe,Flash Fire
+59,Arcanine,Flash Fire
+60,Poliwag,Damp
+61,Poliwhirl,Damp
+62,Poliwrath,Damp
+63,Abra,Inner Focus
+64,Kadabra,Inner Focus
+65,Alakazam,Inner Focus
+66,Machop,No Guard
+67,Machoke,No Guard
+68,Machamp,No Guard
+72,Tentacool,Liquid Ooze
+73,Tentacruel,Liquid Ooze
+74,Geodude,Sturdy
+74,Alolan Geodude,Sturdy
+75,Graveler,Sturdy
+75,Alolan Graveler,Sturdy
+76,Golem,Sturdy
+76,Alolan Golem,Sturdy
+77,Ponyta,Flash Fire
+77,Galarian Ponyta,Pastel Veil
+78,Rapidash,Flash Fire
+78,Galarian Rapidash,Pastel Veil
+79,Slowpoke,Own Tempo
+80,Slowbro,Own Tempo
+81,Magnemite,Sturdy
+82,Magneton,Sturdy
+83,Farfetch'd,Inner Focus
+84,Doduo,Early Bird
+85,Dodrio,Early Bird
+86,Seel,Hydration
+87,Dewgong,Hydration
+88,Grimer,Sticky Hold
+88,Alolan Grimer,Gluttony
+89,Muk,Sticky Hold
+89,Alolan Muk,Gluttony
+90,Shellder,Skill Link
+91,Cloyster,Skill Link
+95,Onix,Sturdy
+96,Drowzee,Forewarn
+97,Hypno,Forewarn
+98,Krabby,Shell Armor
+99,Kingler,Shell Armor
+100,Voltorb,Static
+101,Electrode,Static
+104,Cubone,Lightning Rod
+105,Marowak,Lightning Rod
+105,Alolan Marowak,Lightning Rod
+106,Hitmonlee,Reckless
+107,Hitmonchan,Iron Fist
+108,Lickitung,Oblivious
+109,Koffing,Neutralizing Gas
+110,Weezing,Neutralizing Gas
+110,Galarian Weezing,Neutralizing Gas
+111,Rhyhorn,Rock Head
+112,Rhydon,Rock Head
+113,Chansey,Serene Grace
+114,Tangela,Leaf Guard
+115,Kangaskhan,Scrappy
+116,Horsea,Sniper
+117,Seadra,Sniper
+118,Goldeen,Water Veil
+119,Seaking,Water Veil
+120,Staryu,Natural Cure
+121,Starmie,Natural Cure
+122,Mr. Mime,Filter
+122,Galarian Mr. Mime,Screen Cleaner
+123,Scyther,Technician
+124,Jynx,Forewarn
+127,Pinsir,Mold Breaker
+128,Tauros,Anger Point
+131,Lapras,Shell Armor
+133,Eevee,Adaptability
+137,Porygon,Download
+138,Omanyte,Shell Armor
+139,Omastar,Shell Armor
+140,Kabuto,Battle Armor
+141,Kabutops,Battle Armor
+142,Aerodactyl,Pressure
+143,Snorlax,Thick Fat
+161,Sentret,Keen Eye
+162,Furret,Keen Eye
+163,Hoothoot,Keen Eye
+164,Noctowl,Keen Eye
+165,Ledyba,Early Bird
+166,Ledian,Early Bird
+167,Spinarak,Insomnia
+168,Ariados,Insomnia
+170,Chinchou,Illuminate
+171,Lanturn,Illuminate
+173,Cleffa,Magic Guard
+174,Igglybuff,Competitive
+175,Togepi,Serene Grace
+176,Togetic,Serene Grace
+177,Natu,Early Bird
+178,Xatu,Early Bird
+183,Marill,Huge Power
+184,Azumarill,Huge Power
+185,Sudowoodo,Rock Head
+186,Politoed,Damp
+187,Hoppip,Leaf Guard
+188,Skiploom,Leaf Guard
+189,Jumpluff,Leaf Guard
+190,Aipom,Pickup
+191,Sunkern,Solar Power
+192,Sunflora,Solar Power
+193,Yanma,Compound Eyes
+194,Wooper,Water Absorb
+195,Quagsire,Water Absorb
+198,Murkrow,Own Tempo
+203,Girafarig,Early Bird
+206,Dunsparce,Run Away
+207,Gligar,Sand Veil
+208,Steelix,Sturdy
+209,Snubbull,Run Away
+210,Granbull,Quick Feet
+211,Qwilfish,Swift Swim
+212,Scizor,Technician
+213,Shuckle,Gluttony
+214,Heracross,Guts
+215,Sneasel,Keen Eye
+216,Teddiursa,Quick Feet
+217,Ursaring,Quick Feet
+218,Slugma,Flame Body
+219,Magcargo,Flame Body
+220,Swinub,Snow Cloak
+221,Piloswine,Snow Cloak
+222,Corsola,Natural Cure
+223,Remoraid,Sniper
+224,Octillery,Sniper
+225,Delibird,Hustle
+226,Mantine,Water Absorb
+227,Skarmory,Sturdy
+228,Houndour,Flash Fire
+229,Houndoom,Flash Fire
+230,Kingdra,Sniper
+233,Porygon2,Download
+234,Stantler,Frisk
+235,Smeargle,Technician
+236,Tyrogue,Steadfast
+237,Hitmontop,Technician
+238,Smoochum,Forewarn
+241,Miltank,Scrappy
+242,Blissey,Serene Grace
+261,Poochyena,Quick Feet
+262,Mightyena,Quick Feet
+263,Zigzagoon,Gluttony
+263,Galarian Zigzagoon,Gluttony
+264,Linoone,Gluttony
+264,Galarian Linoone,Gluttony
+270,Lotad,Rain Dish
+271,Lombre,Rain Dish
+272,Ludicolo,Rain Dish
+273,Seedot,Early Bird
+274,Nuzleaf,Early Bird
+275,Shiftry,Early Bird
+278,Wingull,Hydration
+279,Pelipper,Drizzle
+280,Ralts,Trace
+281,Kirlia,Trace
+282,Gardevoir,Trace
+285,Shroomish,Poison Heal
+286,Breloom,Poison Heal
+296,Makuhita,Guts
+297,Hariyama,Guts
+298,Azurill,Huge Power
+299,Nosepass,Magnet Pull
+300,Skitty,Normalize
+301,Delcatty,Normalize
+302,Sableye,Stall
+303,Mawile,Intimidate
+304,Aron,Rock Head
+305,Lairon,Rock Head
+306,Aggron,Rock Head
+309,Electrike,Lightning Rod
+310,Manectric,Lightning Rod
+313,Volbeat,Swarm
+314,Illumise,Tinted Lens
+315,Roselia,Poison Point
+316,Gulpin,Sticky Hold
+317,Swalot,Sticky Hold
+320,Wailmer,Oblivious
+321,Wailord,Oblivious
+322,Numel,Simple
+323,Camerupt,Solid Rock
+324,Torkoal,Drought
+325,Spoink,Own Tempo
+326,Grumpig,Own Tempo
+327,Spinda,Tangled Feet
+328,Trapinch,Arena Trap
+339,Barboach,Anticipation
+340,Whiscash,Anticipation
+341,Corphish,Shell Armor
+342,Crawdaunt,Shell Armor
+349,Feebas,Oblivious
+350,Milotic,Competitive
+353,Shuppet,Frisk
+354,Banette,Frisk
+357,Tropius,Solar Power
+359,Absol,Super Luck
+361,Snorunt,Ice Body
+362,Glalie,Ice Body
+363,Spheal,Ice Body
+364,Sealeo,Ice Body
+365,Walrein,Ice Body
+369,Relicanth,Rock Head
+399,Bidoof,Unaware
+400,Bibarel,Unaware
+403,Shinx,Intimidate
+404,Luxio,Intimidate
+405,Luxray,Intimidate
+406,Budew,Poison Point
+407,Roserade,Poison Point
+417,Pachirisu,Pickup
+422,Shellos,Storm Drain
+423,Gastrodon,Storm Drain
+424,Ambipom,Pickup
+425,Drifloon,Unburden
+426,Drifblim,Unburden
+427,Buneary,Klutz
+428,Lopunny,Klutz
+430,Honchkrow,Super Luck
+431,Glameow,Own Tempo
+432,Purugly,Own Tempo
+434,Stunky,Aftermath
+435,Skuntank,Aftermath
+436,Bronzor,Heatproof
+437,Bronzong,Heatproof
+438,Bonsly,Rock Head
+439,Mime Jr.,Filter
+440,Happiny,Serene Grace
+441,Chatot,Tangled Feet
+446,Munchlax,Thick Fat
+447,Riolu,Inner Focus
+448,Lucario,Inner Focus
+451,Skorupi,Sniper
+452,Drapion,Sniper
+453,Croagunk,Dry Skin
+454,Toxicroak,Dry Skin
+456,Finneon,Storm Drain
+457,Lumineon,Storm Drain
+458,Mantyke,Water Absorb
+462,Magnezone,Sturdy
+463,Lickilicky,Oblivious
+464,Rhyperior,Solid Rock
+465,Tangrowth,Leaf Guard
+468,Togekiss,Serene Grace
+469,Yanmega,Tinted Lens
+472,Gliscor,Sand Veil
+473,Mamoswine,Snow Cloak
+474,Porygon-Z,Download
+476,Probopass,Magnet Pull
+504,Patrat,Keen Eye
+505,Watchog,Keen Eye
+506,Lillipup,Pickup
+507,Herdier,Sand Rush
+508,Stoutland,Sand Rush
+509,Purrloin,Unburden
+510,Liepard,Unburden
+517,Munna,Synchronize
+518,Musharna,Synchronize
+519,Pidove,Super Luck
+520,Tranquill,Super Luck
+521,Unfezant,Super Luck
+522,Blitzle,Motor Drive
+523,Zebstrika,Motor Drive
+524,Roggenrola,Weak Armor
+525,Boldore,Weak Armor
+526,Gigalith,Sand Stream
+527,Woobat,Klutz
+528,Swoobat,Klutz
+529,Drilbur,Sand Force
+530,Excadrill,Sand Force
+531,Audino,Regenerator
+532,Timburr,Sheer Force
+533,Gurdurr,Sheer Force
+534,Conkeldurr,Sheer Force
+535,Tympole,Hydration
+536,Palpitoad,Hydration
+537,Seismitoad,Poison Touch
+538,Throh,Inner Focus
+539,Sawk,Inner Focus
+540,Sewaddle,Chlorophyll
+541,Swadloon,Chlorophyll
+542,Leavanny,Chlorophyll
+543,Venipede,Swarm
+544,Whirlipede,Swarm
+545,Scolipede,Swarm
+546,Cottonee,Infiltrator
+547,Whimsicott,Infiltrator
+548,Petilil,Own Tempo
+549,Lilligant,Own Tempo
+550,Basculin Red-Striped Form,Adaptability
+550,Basculin Blue-Striped Form,Adaptability
+551,Sandile,Moxie
+552,Krokorok,Moxie
+553,Krookodile,Moxie
+556,Maractus,Chlorophyll
+557,Dwebble,Shell Armor
+558,Crustle,Shell Armor
+559,Scraggy,Moxie
+560,Scrafty,Moxie
+561,Sigilyph,Magic Guard
+564,Tirtouga,Sturdy
+565,Carracosta,Sturdy
+568,Trubbish,Sticky Hold
+569,Garbodor,Weak Armor
+572,Minccino,Technician
+573,Cinccino,Technician
+574,Gothita,Competitive
+575,Gothorita,Competitive
+576,Gothitelle,Competitive
+577,Solosis,Magic Guard
+578,Duosion,Magic Guard
+579,Reuniclus,Magic Guard
+580,Ducklett,Big Pecks
+581,Swanna,Big Pecks
+582,Vanillite,Snow Cloak
+583,Vanillish,Snow Cloak
+584,Vanilluxe,Snow Warning
+585,Deerling,Sap Sipper
+586,Sawsbuck,Sap Sipper
+588,Karrablast,Shed Skin
+589,Escavalier,Shell Armor
+592,Frillish,Cursed Body
+593,Jellicent,Cursed Body
+594,Alomomola,Hydration
+595,Joltik,Unnerve
+596,Galvantula,Unnerve
+599,Klink,Minus
+600,Klang,Minus
+601,Klinklang,Minus
+605,Elgyem,Synchronize
+606,Beheeyem,Synchronize
+607,Litwick,Flame Body
+608,Lampent,Flame Body
+609,Chandelure,Flame Body
+610,Axew,Mold Breaker
+611,Fraxure,Mold Breaker
+612,Haxorus,Mold Breaker
+613,Cubchoo,Slush Rush
+614,Beartic,Slush Rush
+616,Shelmet,Shell Armor
+617,Accelgor,Sticky Hold
+618,Stunfisk,Limber
+619,Mienfoo,Regenerator
+620,Mienshao,Regenerator
+621,Druddigon,Sheer Force
+622,Golett,Klutz
+623,Golurk,Klutz
+624,Pawniard,Inner Focus
+625,Bisharp,Inner Focus
+626,Bouffalant,Sap Sipper
+627,Rufflet,Sheer Force
+628,Braviary,Sheer Force
+629,Vullaby,Overcoat
+630,Mandibuzz,Overcoat
+631,Heatmor,Flash Fire
+632,Durant,Hustle
+659,Bunnelby,Cheek Pouch
+660,Diggersby,Cheek Pouch
+664,Scatterbug,Compound Eyes
+666,Vivillon,Compound Eyes
+667,Litleo,Unnerve
+668,Pyroar,Unnerve
+674,Pancham,Mold Breaker
+675,Pangoro,Mold Breaker
+677,Espurr,Infiltrator
+678,Meowstic Male,Infiltrator
+678,Meowstic Female,Infiltrator
+686,Inkay,Suction Cups
+687,Malamar,Suction Cups
+688,Binacle,Tough Claws
+689,Barbaracle,Tough Claws
+690,Skrelp,Poison Touch
+691,Dragalge,Poison Touch
+694,Helioptile,Sand Veil
+695,Heliolisk,Sand Veil
+701,Hawlucha,Unburden
+702,Dedenne,Pickup
+704,Goomy,Hydration
+705,Sliggoo,Hydration
+706,Goodra,Hydration
+708,Phantump,Frisk
+709,Trevenant,Frisk
+710,Pumpkaboo Average Size,Frisk
+710,Pumpkaboo Small Size,Frisk
+710,Pumpkaboo Large Size,Frisk
+710,Pumpkaboo Super Size,Frisk
+711,Gourgeist Average Size,Frisk
+711,Gourgeist Small Size,Frisk
+711,Gourgeist Large Size,Frisk
+711,Gourgeist Super Size,Frisk
+712,Bergmite,Ice Body
+713,Avalugg,Ice Body
+714,Noibat,Infiltrator
+715,Noivern,Infiltrator
+718,Zygarde 50% Forme,Power Construct
+718,Zygarde 10% Forme,Power Construct
+731,Pikipek,Skill Link
+732,Trumbeak,Skill Link
+733,Toucannon,Skill Link
+734,Yungoos,Stakeout
+735,Gumshoos,Stakeout
+739,Crabrawler,Iron Fist
+740,Crabominable,Iron Fist
+742,Cutiefly,Shield Dust
+743,Ribombee,Shield Dust
+744,Rockruff,Vital Spirit
+745,Lycanroc Midday Form,Sand Rush
+745,Lycanroc Midnight Form,Vital Spirit
+747,Mareanie,Limber
+748,Toxapex,Limber
+749,Mudbray,Stamina
+750,Mudsdale,Stamina
+755,Morelull,Effect Spore
+756,Shiinotic,Effect Spore
+759,Stufful,Klutz
+760,Bewear,Klutz
+761,Bounsweet,Oblivious
+762,Steenee,Oblivious
+763,Tsareena,Queenly Majesty
+764,Comfey,Triage
+765,Oranguru,Telepathy
+777,Togedemaru,Lightning Rod
+779,Bruxish,Strong Jaw
+780,Drampa,Sap Sipper
+782,Jangmo-o,Soundproof
+783,Hakamo-o,Soundproof
+784,Kommo-o,Soundproof
+821,Rookidee,Unnerve
+822,Corvisquire,Unnerve
+823,Corviknight,Unnerve
+824,Blipbug,Compound Eyes
+825,Dottler,Compound Eyes
+826,Orbeetle,Frisk
+827,Nickit,Unburden
+828,Thievul,Unburden
+829,Gossifleur,Regenerator
+830,Eldegoss,Regenerator
+831,Wooloo,Run Away
+832,Dubwool,Steadfast
+833,Chewtle,Shell Armor
+834,Drednaw,Shell Armor
+837,Rolycoly,Heatproof
+838,Carkol,Flame Body
+839,Coalossal,Flame Body
+840,Applin,Gluttony
+841,Flapple,Gluttony
+842,Appletun,Gluttony
+843,Silicobra,Shed Skin
+844,Sandaconda,Shed Skin
+848,Toxel,Static
+849,Toxtricity Low Key Form,Minus
+849,Toxtricity Amped Form,Plus
+850,Sizzlipede,White Smoke
+851,Centiskorch,White Smoke
+856,Hatenna,Anticipation
+857,Hattrem,Anticipation
+858,Hatterene,Anticipation
+859,Impidimp,Frisk
+860,Morgrem,Frisk
+861,Grimmsnarl,Frisk
+862,Obstagoon,Guts
+863,Perrserker,Tough Claws
+866,Mr. Rime,Screen Cleaner
+876,Indeedee Male,Synchronize
+876,Indeedee Female,Synchronize
+880,Dracozolt,Hustle
+881,Arctozolt,Static
+882,Dracovish,Strong Jaw
+883,Arctovish,Ice Body
+884,Duraludon,Heavy Metal
+885,Dreepy,Infiltrator
+886,Drakloak,Infiltrator
+887,Dragapult,Infiltrator
